@@ -1,0 +1,14 @@
+# global ignores
+node_modules/
+.env
+.env.*
+
+# builds
+dist/
+build/
+
+# logs
+*.log
+
+# OS
+.DS_Store
