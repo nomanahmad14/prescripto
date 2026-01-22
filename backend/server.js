@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5174", // admin
-      "http://localhost:5171"  // frontend
+      "http://localhost:5173"  // frontend
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
