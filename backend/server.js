@@ -21,6 +21,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "https://prescripto-frontend-rouge.vercel.app",
+  "https://prescripto-ebon-three.vercel.app"
 ];
 
 app.use(
