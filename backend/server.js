@@ -17,7 +17,16 @@ connectCloudinary()
 //MIDDLEWARES
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5174", // admin
+      "http://localhost:5171"  // frontend
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+  })
+);
 
 //API End Points
 
